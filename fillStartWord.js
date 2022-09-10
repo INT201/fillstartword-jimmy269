@@ -10,6 +10,12 @@ function fillStartWord(startWord,word) {
  else if(startWord == 'first'){
   return word
  }
+ else if(startWord == 'second'){
+  return word
+ }
+ else if(startWord == 'third'){
+  return word
+ }
 else {
   return startWord+word
 }
